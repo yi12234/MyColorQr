@@ -23,13 +23,13 @@ public class MyColorQrUtils {
         ivQR.setImageBitmap(QRCode.createQRCodeWithLogo3(string, 500,QRCode.drawableToBitmap(act.getResources().getDrawable(id))));
     }
     public static void MyColorQrUtils4(Activity act, ImageView ivQR, String string, int id) {
-        ivQR.setImageBitmap(QRCode.createQRCodeWithLogo3(string, 500,QRCode.drawableToBitmap(act.getResources().getDrawable(id))));
+        ivQR.setImageBitmap(QRCode.createQRCodeWithLogo4(string, 500,QRCode.drawableToBitmap(act.getResources().getDrawable(id))));
     }
     public static void MyColorQrUtils5(Activity act, ImageView ivQR, String string, int id) {
-        ivQR.setImageBitmap(QRCode.createQRCodeWithLogo3(string, 500,QRCode.drawableToBitmap(act.getResources().getDrawable(id))));
+        ivQR.setImageBitmap(QRCode.createQRCodeWithLogo5(string, 500,QRCode.drawableToBitmap(act.getResources().getDrawable(id))));
     }
     public static void MyColorQrUtils6(Activity act, ImageView ivQR, String string, int id) {
-        ivQR.setImageBitmap(QRCode.createQRCodeWithLogo3(string, 500,QRCode.drawableToBitmap(act.getResources().getDrawable(id))));
+        ivQR.setImageBitmap(QRCode.createQRCodeWithLogo6(string, 500,QRCode.drawableToBitmap(act.getResources().getDrawable(id))));
 
     }
 }
